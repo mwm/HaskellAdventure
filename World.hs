@@ -261,7 +261,7 @@ parse character command roomKey rooms =
          -- Lels
          ("fuck":"this":noun:_) -> (keep, keep, keep, "It's not my fault, blame the idiot who programmed this " ++ noun)
          ("fuck":"this":_) -> (keep, keep, keep, "It's not my fault, blame the idiot who programmed this shit")
-         ("fuck":"me":_) -> (keep, keep, keep, "Yes, do that")
+         ("fuck":"me":_) -> (keep, keep, keep, "Should i get a motel room, or...?")
          ("fuck":item:_) -> (keep, keep, keep, "No, fuck you")
          ("æøå":_) -> (keep, keep, keep, "Heia Norge!")
          ("ÆØÅ":_) -> (keep, keep, keep, "Heia Norge!")
